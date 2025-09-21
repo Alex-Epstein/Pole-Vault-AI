@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A helpful guide and resources for pole vaulters, featuring training videos, tips, and a downloadable algorithm for pole vaulting form analysis.">
+    <title>Pole Vaulting Guide for Beginners</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2a9d8f;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            width: 85%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2a9d8f;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+
+        .video-section {
+            margin-top: 40px;
+        }
+
+        .video-section iframe {
+            width: 100%;
+            height: 420px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .video-section h3 {
+            font-size: 1.8em;
+            color: #2a9d8f;
+            margin-bottom: 15px;
+        }
+
+        .resources {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .resources div {
+            background-color: #eaeaea;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .resources h3 {
+            color: #2a9d8f;
+            font-size: 1.5em;
+        }
+
+        .resources a {
+            text-decoration: none;
+            color: #2a9d8f;
+            font-weight: bold;
+        }
+
+        .resources a:hover {
+            text-decoration: underline;
+        }
+
+        .algorithm {
+            background-color: #e9f7f4;
+            padding: 20px;
+            border: 1px solid #2a9d8f;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        footer {
+            background-color: #2a9d8f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.1em;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .btn-primary {
+            background-color: #e76f51;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .btn-primary:hover {
+            background-color: #f4a261;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pole Vaulting Guide for Beginners</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Welcome to the Ultimate Pole Vaulting Resource Hub!</h2>
+            <p>This website provides new pole vaulters with helpful resources, training videos, tips, and a downloadable algorithm to assist with analyzing pole vaulting form. Whether you're starting your journey or refining your technique, this hub is designed to guide you every step of the way.</p>
+        </section>
+
+        <section class="video-section">
+            <h3>Essential Training Videos</h3>
+            <p>These videos cover everything from the basics of pole vaulting to advanced techniques and drills.</p>
+
+            <!-- Embed YouTube Videos -->
+            <iframe src="https://www.youtube.com/embed/3JnL_T5PtKM" title="Pole Vault Basics - Beginner Training" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/X4IcqJjjNiI" title="How to Improve Your Pole Vault Technique" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/v9cZyH5B9TY" title="Pole Vault Training Drill to Improve Your Takeoff" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Resources and Tutorials</h2>
+            <p>Explore various helpful resources that will improve your pole vaulting technique, from detailed guides to expert videos.</p>
+
+            <div class="resources">
+                <div>
+                    <h3><a href="https://www.coachup.com/nationwide/lessons/pole-vaulting" target="_blank">Pole Vaulting Training Guide</a></h3>
+                    <p>Comprehensive guide with drills, tips, and exercises for all skill levels.</p>
+                </div>
+                <div>
+                    <h3><a href="https://www.youtube.com/watch?v=7Tkt-Osxa3A" target="_blank">Advanced Pole Vaulting Drills</a></h3>
+                    <p>Push your skills further with these advanced pole vault drills for experienced athletes.</p>
+                </div>
+                <div>
+                    <h3><a href="https://www.polevaultpower.com/" target="_blank">Pole Vault Power</a></h3>
+                    <p>A supportive community for pole vaulters, featuring training tools, tips, and techniques.</p>
+                </div>
+                <div>
+                    <h3><a href="https://www.amazon.com/Complete-Pole-Vault-Manual-Book/dp/1852238058" target="_blank">Complete Pole Vaulting Manual</a></h3>
+                    <p>The definitive guide to pole vaulting, written by an Olympic coach. A must-read for serious vaulters.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="algorithm">
+            <h2>Download My Pole Vault Algorithm</h2>
+            <p>I've developed an algorithm that analyzes pole vaulting form based on video footage. You can use this algorithm to gain insight into your form and track your progress over time.</p>
+            <p><a href="YOUR-GITHUB-REPO-LINK" target="_blank" class="btn-primary">Click here to download or view the algorithm code</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Created by [Your Name] | Senior Project | 2025</p>
+    </footer>
+
+</body>
+
+</html>
